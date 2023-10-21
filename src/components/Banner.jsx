@@ -38,9 +38,9 @@ const Banner = () => {
     }
 
     return (
-        <section className="banner">
+        <section className="banner" id="home">
             <Container>
-                <Row id="#home">
+                <Row>
                     <Col xs={12} md={6} xl={6} className="order-2 order-md-1">
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi I am Pratham Patel `}<span style={{ color: '#a855f7' }} className="wrap">{text}</span></h1>
@@ -52,7 +52,7 @@ const Banner = () => {
                 </Row>
             </Container>
         </section>
-    )
+    );
 }
 
 export default Banner;

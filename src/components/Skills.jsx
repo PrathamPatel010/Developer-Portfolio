@@ -5,7 +5,7 @@ import skills from '../data/skills';
 function Skills() {
     return (
         <section id="skills" className="skills-sec mt-5 pt-5">
-            <h1>My Skills</h1>
+            <h1>Skills</h1>
             <Container className="mt-4">
                 <Row>
                     {

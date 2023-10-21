@@ -9,22 +9,22 @@ const blogs = [{
     {
         img: blog2,
         name: 'Coming Soon!! Coming Soon!! Coming Soon!! Coming Soon!!',
-        url: '#',
+        url: '',
     },
     {
         img: blog2,
         name: 'Coming Soon!! Coming Soon!! Coming Soon!! Coming Soon!!',
-        url: '#',
+        url: '',
     },
     {
         img: blog2,
         name: 'Coming Soon!! Coming Soon!! Coming Soon!! Coming Soon!!',
-        url: '#',
+        url: '',
     },
     {
         img: blog2,
         name: 'Coming Soon!! Coming Soon!! Coming Soon!! Coming Soon!!',
-        url: '#',
+        url: '',
     },
 ];
 

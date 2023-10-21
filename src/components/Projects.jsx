@@ -5,15 +5,15 @@ import CustomButton from './CustomButton';
 const Projects = () => {
     return (
         <>
-            <section className="projects-div mb-5" id="projects">
-                <h1>Projects</h1>
+            <section className="projects-div my-5 pt-5" id="projects">
+                <h1>My Projects</h1>
                 <Container>
                     <Row>
                         <div className="project-grid">
                             {
                                 projects.map((project, index) => (
-                                    <Col key={index} xs={12} md={6} xl={''}>
-                                        <Card className="card-project pt-1">
+                                    <Col key={index} xs={12} md={6}>
+                                        <Card className="card-project">
                                             <Card.Img variant="top" src={project.img} />
                                             <Card.Body>
                                                 <Card.Title>{project.name}</Card.Title>

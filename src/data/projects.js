@@ -5,7 +5,7 @@ import mk3 from '../assets/mk3.png';
 
 const projects = [{
         name: 'TaskEasy',
-        description: 'A Todo App',
+        description: 'Secured Todo App',
         img: mk1,
     },
     {
@@ -15,8 +15,18 @@ const projects = [{
     },
     {
         name: 'SpendWise',
-        description: 'Expense Tracking',
+        description: 'Advanced Expense Tracking',
         img: mk3,
+    },
+    {
+        name: 'Coming Soon!!',
+        description: 'Coming Soon!!',
+        img: mk1,
+    },
+    {
+        name: 'Coming Soon!!',
+        description: 'Coming Soon!!',
+        img: mk2,
     },
 ];
 

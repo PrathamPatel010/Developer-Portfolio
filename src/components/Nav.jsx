@@ -28,7 +28,7 @@ function NavbarComponent() {
         <>
             <Navbar fixed="top" expand="lg" className={scrolled ? "scrolled" : ""}>
                 <Container>
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="/">
                         <img className="img img-fluid" style={{ borderRadius: '50%' }} src={logo} alt="Logo" width="10%" height="10%" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav">

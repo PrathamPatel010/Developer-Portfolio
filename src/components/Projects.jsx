@@ -6,10 +6,10 @@ const Projects = () => {
     return (
         <>
             <section className="projects-div my-5 pt-5" id="projects">
-                <h1>My Projects</h1>
+                <h1>Projects</h1>
                 <Container>
                     <Row>
-                        <div className="project-grid">
+                        <div className="project-grid mt-4">
                             {
                                 projects.map((project, index) => (
                                     <Col key={index} xs={12} md={6}>

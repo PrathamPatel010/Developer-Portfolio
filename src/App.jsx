@@ -9,28 +9,17 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 
 const App = () => {
-  const [isloading, setIsLoading] = useState(true);
-  useEffect(() => {
-    window.addEventListener('load', () => {
-      setIsLoading(false);
-    });
-  }, []);
 
   return (
     <>
-      {
-        isloading ? <Loader /> : (
-          <>
-            <NavbarComponent />
-            <Banner />
-            <Skills />
-            <Projects />
-            <Blogs />
-            <Footer />
-          </>
-        )}
+      <NavbarComponent />
+      <Banner />
+      <Skills />
+      <Projects />
+      <Blogs />
+      <Footer />
     </>
   )
-}
+};
 
 export default App;

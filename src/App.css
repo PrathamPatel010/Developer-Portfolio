@@ -347,6 +347,51 @@ nav.navbar .navbar-toggler-icon:after {
 }
 
 
+/* Styles for ProjectHeader.jsx */
+
+.project-info {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/banner-bg.png');
+    background-repeat: no-repeat;
+}
+
+.projectpage-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.projectpage-body {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectpage-moreinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.project-moreinfodiv {
+    width: 100%;
+    height: max-content;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.project-moreinfodiv a:hover {
+    text-decoration: none;
+}
+
+
 /* Additional Components */
 
 .button {

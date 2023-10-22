@@ -11,14 +11,14 @@ const Projects = () => {
                     <Row>
                         <div className="project-grid mt-4">
                             {
-                                projects.map((project, index) => (
-                                    <Col key={index} xs={12} md={6}>
+                                projects.map((project) => (
+                                    <Col key={project.projectIndex} xs={12} md={6}>
                                         <Card className="card-project">
                                             <Card.Img variant="top" src={project.img} />
                                             <Card.Body>
                                                 <Card.Title>{project.name}</Card.Title>
                                                 <Card.Text>{project.description}</Card.Text>
-                                                <CustomButton text={'View More'}></CustomButton>
+                                                <CustomButton text={'View More'} url={`/project/${project.projectIndex}`}></CustomButton>
                                             </Card.Body>
                                         </Card>
                                     </Col>

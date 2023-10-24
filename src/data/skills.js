@@ -2,6 +2,7 @@ import node from '../assets/node.png';
 import express from '../assets/express.png';
 import mongo from '../assets/mongo.png';
 import react from '../assets/react.png';
+import ejs from '../assets/ejs.png';
 import spring from '../assets/spring.png';
 import hibernate from '../assets/hibernate.png';
 import mysql from '../assets/mysql.png';
@@ -21,6 +22,9 @@ const skills = [{
 }, {
     name: 'React',
     img: react,
+}, {
+    name: 'EJS',
+    img: ejs,
 }, {
     name: 'JSP',
     img: jsp,

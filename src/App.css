@@ -370,6 +370,10 @@ nav.navbar .navbar-toggler-icon:after {
     align-items: center;
 }
 
+.projectpage-body img {
+    align-items: flex-start;
+}
+
 .projectpage-moreinfo {
     display: flex;
     flex-direction: column;
@@ -390,6 +394,18 @@ nav.navbar .navbar-toggler-icon:after {
 .project-moreinfodiv a:hover {
     text-decoration: none;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class="ytvideo-div"] {
+        width: 100%;
+    }
+    [class="iframe-yt"] {
+        width: 100%;
+    }
+}
+
+.ytvideo-div {}
 
 
 /* Additional Components */

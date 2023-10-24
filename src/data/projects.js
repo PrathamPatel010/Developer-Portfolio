@@ -62,8 +62,9 @@ const projects = [{
         projectIndex: 3,
         name: 'SpendWise',
         description: 'Advanced Expense Tracking',
-        url: 'http://www.youtube.com/embed/HzBA6FIn_Bo?si=eiYssumY7XlsJW6T',
+        url: '',
         moreinfo: `
+        <h1>Youtube video will be added soon</h1>
         <h2>About The Project</h2>
         <p>Link to GitHub Code Repository: <a href="http://github.com/PrathamPatel010/Money-Tracking-App">View Code</a></p>
         <h3>Tech Stack</h3>

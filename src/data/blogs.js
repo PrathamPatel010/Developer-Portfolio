@@ -16,16 +16,6 @@ const blogs = [{
         name: 'Coming Soon!! Coming Soon!! Coming Soon!! Coming Soon!!',
         url: '',
     },
-    {
-        img: blog2,
-        name: 'Coming Soon!! Coming Soon!! Coming Soon!! Coming Soon!!',
-        url: '',
-    },
-    {
-        img: blog2,
-        name: 'Coming Soon!! Coming Soon!! Coming Soon!! Coming Soon!!',
-        url: '',
-    },
 ];
 
 export default blogs;

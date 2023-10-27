@@ -260,7 +260,7 @@ nav.navbar .navbar-toggler-icon:after {
 .card-project {
     margin-top: 1rem;
     width: 20rem;
-    height: 31.5rem;
+    height: fit-content;
     background-color: transparent;
     color: #fff;
 }

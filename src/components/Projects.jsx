@@ -24,9 +24,6 @@ const Projects = () => {
                                     </Col>
                                 ))
                             }
-                            <div className="d-flex justify-content-start">
-                                <h4><a href="/projects">See More Projects</a></h4>
-                            </div>
                         </div>
                     </Row>
                 </Container>

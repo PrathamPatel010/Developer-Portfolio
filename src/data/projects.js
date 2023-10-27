@@ -7,7 +7,7 @@ const projects = [{
         projectIndex: 1,
         name: 'TaskEasy',
         description: 'Secured Todo App',
-        url: 'https://www.youtube.com/embed/w18UpUAkA-c?si=fEdsRyR-rRaBWnqh',
+        url: 'https://www.youtube.com/embed/-jcvJi0UmZg?si=OSd2n4gP2_oN8SLV',
         moreinfo: `
         <h2>About The Project</h2>
         <p>Link to GitHub Code Repository: <a href="http://github.com/PrathamPatel010/TaskEasy">View Code</a></p>

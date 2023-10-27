@@ -1,13 +1,41 @@
-import { RingLoader } from "react-spinners";
+import { useEffect, useState } from "react";
 import backendFunFacts from "../data/backendFacts";
+import ArcReactor from "./ArcReactor";
 const Loader = () => {
-    const randomNumber = Math.floor(Math.random() * backendFunFacts.length);
-    const randomFact = backendFunFacts[randomNumber];
+
+    // functionality to ensure that indices are not repeated frequently
+    const [lastIndices, setLastIndices] = useState([]);
+    const [randomFact, setRandomFact] = useState('');
+    useEffect(() => {
+        const getRandomFact = () => {
+            let randomNumber;
+            do {
+                randomNumber = Math.floor(Math.random() * backendFunFacts.length);
+            } while (lastIndices.includes(randomNumber));
+
+            // maintain a list of last 5 indices to avoid immediate repetition
+            const updatedIndices = [...lastIndices, randomNumber].slice(-5);
+            setLastIndices(updatedIndices);
+            console.log(updatedIndices);
+            console.log(randomNumber);
+            setRandomFact(backendFunFacts[randomNumber]);
+            return;
+        }
+        // get the fact only if it is not fetched yet
+        if (lastIndices.length === 0 || randomFact === '') {
+            getRandomFact();
+        }
+    }, [lastIndices, randomFact]);
+
     return (
-        <section className="loader-div text-center">
-            <RingLoader color="#36d7b7" size={200} />
-            <h4 className="mt-3">{randomFact}</h4>
-        </section>
+        <>
+            <section className="loader-body">
+                <ArcReactor />
+                <div className="text-center pt-5">
+                    <h4>{randomFact}</h4>
+                </div>
+            </section>
+        </>
     )
 };
 

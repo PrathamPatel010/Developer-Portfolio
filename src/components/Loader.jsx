@@ -16,8 +16,6 @@ const Loader = () => {
             // maintain a list of last 5 indices to avoid immediate repetition
             const updatedIndices = [...lastIndices, randomNumber].slice(-5);
             setLastIndices(updatedIndices);
-            console.log(updatedIndices);
-            console.log(randomNumber);
             setRandomFact(backendFunFacts[randomNumber]);
             return;
         }

@@ -35,7 +35,7 @@ const projects = [{
         projectIndex: 2,
         name: 'QuickShare',
         description: 'Secured File Sharing',
-        url: 'https://www.youtube.com/embed/v6YkTAhPPVI?si=KW_4G9obm51UPDbV',
+        url: 'https://www.youtube.com/embed/4hnK20elpCc?si=u1XUY0hXCxgq_Npd',
         moreinfo: `
         <h2>About The Project</h2>
         <p>Link to GitHub Code Repository: <a href="http://github.com/PrathamPatel010/File-Sharing-App">View Code</a></p>
@@ -62,9 +62,8 @@ const projects = [{
         projectIndex: 3,
         name: 'SpendWise',
         description: 'Advanced Expense Tracking',
-        url: '',
+        url: 'https://www.youtube.com/embed/Wn9K9PVR1uQ?si=GdqCutaqHVtnYEgj',
         moreinfo: `
-        <h1>Youtube video will be added soon</h1>
         <h2>About The Project</h2>
         <p>Link to GitHub Code Repository: <a href="http://github.com/PrathamPatel010/Money-Tracking-App">View Code</a></p>
         <h3>Tech Stack</h3>

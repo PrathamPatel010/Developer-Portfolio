@@ -19,7 +19,7 @@ const ProjectInfo = () => {
     document.title = `Project ${projectIndex} - ${project.name}`;
     return (
         <div className="project-moreinfodiv mt-4">
-            <div dangerouslySetInnerHTML={{ __html: project.moreinfo }} style={{ border: '0.5px solid green', borderRadius: '5px', padding: '0.5rem', backgroundColor: '#472948', color: '#fff' }}></div>
+            <div dangerouslySetInnerHTML={{ __html: project.moreinfo }} style={{ border: '0.5px solid green', borderRadius: '5px', padding: '0.5rem', backgroundColor: '#36202e', color: '#fff' }}></div>
         </div>
     )
 }
@@ -40,6 +40,6 @@ const YtVideoFrame = () => {
             </iframe>
         </div>
     )
-}
+};
 
 export default ProjectBody;

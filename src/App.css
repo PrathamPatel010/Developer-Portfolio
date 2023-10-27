@@ -388,7 +388,7 @@ nav.navbar .navbar-toggler-icon:after {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 0.5rem;
 }
 
 .project-moreinfodiv a:hover {

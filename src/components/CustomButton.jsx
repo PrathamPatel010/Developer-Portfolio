@@ -3,12 +3,12 @@
 const CustomButton = ({ text, url }) => {
     const redirectToURL = (url) => {
         if (url) {
-            window.open(url, '_blank');
+            window.open(url, '_blank', 'noopener', 'noreferrer');
         }
     };
 
     return (
-        <button className="button" onClick={() => redirectToURL(url)}>
+        <button className="button" style={{ width: '11rem' }} onClick={() => redirectToURL(url)}>
             {text}
         </button >
     );

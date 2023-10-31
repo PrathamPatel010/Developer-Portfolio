@@ -18,7 +18,14 @@ const Projects = () => {
                                             <Card.Body>
                                                 <Card.Title>{project.name}</Card.Title>
                                                 <Card.Text>{project.description}</Card.Text>
-                                                <CustomButton text={'View More'} url={`/project/${project.projectIndex}`}></CustomButton>
+                                                <CustomButton text={'View More'} url={`/project/${project.projectIndex}`} />
+                                                {
+                                                    project.app_url ? (
+                                                        <div className="mt-1">
+                                                            <CustomButton text={'View Live App'} url={project.app_url} />
+                                                        </div>
+                                                    ) : <></>
+                                                }
                                             </Card.Body>
                                         </Card>
                                     </Col>

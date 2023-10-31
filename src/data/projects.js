@@ -7,10 +7,12 @@ const projects = [{
         projectIndex: 1,
         name: 'TaskEasy',
         description: 'Secured Todo App',
+        app_url: `http://taskeasy010.netlify.app`,
         url: 'https://www.youtube.com/embed/-jcvJi0UmZg?si=OSd2n4gP2_oN8SLV',
         moreinfo: `
         <h2>About The Project</h2>
-        <p>Link to GitHub Code Repository: <a href="http://github.com/PrathamPatel010/TaskEasy">View Code</a></p>
+        <p>Link to GitHub Code Repository: <a href="http://github.com/PrathamPatel010/TaskEasy" target="_blank" rel="noopener noreferrer">View Code</a><br>
+        Link to Live Web-App: <a href="http://taskeasy010.netlify.app" target="_blank" rel="noopener noreferrer">View Live App</a></p>
         <h3>Tech Stack</h3>
         <ul>
             <li>React JS for frontend</li>
@@ -35,10 +37,12 @@ const projects = [{
         projectIndex: 2,
         name: 'QuickShare',
         description: 'Secured File Sharing',
+        app_url: `http://quickshare.azurewebsites.net`,
         url: 'https://www.youtube.com/embed/4hnK20elpCc?si=u1XUY0hXCxgq_Npd',
         moreinfo: `
         <h2>About The Project</h2>
-        <p>Link to GitHub Code Repository: <a href="http://github.com/PrathamPatel010/File-Sharing-App">View Code</a></p>
+        <p>Link to GitHub Code Repository: <a href="http://github.com/PrathamPatel010/File-Sharing-App" target="_blank" rel="noopener noreferrer">View Code</a><br>
+        Link to Live Web-App: <a href="http://quickshare.azurewebsites.net" target="_blank" rel="noopener noreferrer">View Live App</a></p>
         <h3>Tech Stack</h3>
         <ul>
             <li>HTML,CSS,JS,EJS for frontend</li>
@@ -63,9 +67,11 @@ const projects = [{
         name: 'SpendWise',
         description: 'Advanced Expense Tracking',
         url: 'https://www.youtube.com/embed/Wn9K9PVR1uQ?si=GdqCutaqHVtnYEgj',
+        app_url: `http://spendwise010.netlify.app`,
         moreinfo: `
         <h2>About The Project</h2>
-        <p>Link to GitHub Code Repository: <a href="http://github.com/PrathamPatel010/Money-Tracking-App">View Code</a></p>
+        <p>Link to GitHub Code Repository: <a href="http://github.com/PrathamPatel010/Money-Tracking-App" target="_blank" rel="noopener noreferrer">View Code</a><br>
+        Link to Live Web-App: <a href="http://spendwise010.netlify.app" target="_blank" rel="noopener noreferrer">View Live App</a></p>
         <h3>Tech Stack</h3>
         <ul>
             <li>React JS for frontend</li>

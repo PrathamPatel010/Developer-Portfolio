@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import projects from '../../data/projects';
-import photo from '../../assets/photo.png';
+import photo from '../../assets/photo.jpg';
 
 const ProjectHeader = () => {
     const { projectID } = useParams();

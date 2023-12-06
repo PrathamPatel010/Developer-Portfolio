@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import about from '../data/about';
-import headerImg from '../assets/header-1.png';
+import headerImg from '../assets/header-1.jpg';
 
 const Banner = () => {
     const [loopNum, setLoopNum] = useState(0); // which word to be displayed

@@ -26,15 +26,6 @@ const skills = [{
     name: 'EJS',
     img: ejs,
 }, {
-    name: 'JSP',
-    img: jsp,
-}, {
-    name: 'Spring',
-    img: spring,
-}, {
-    name: 'Hibernate',
-    img: hibernate,
-}, {
     name: 'PostgreSQL',
     img: postgres,
 }, {

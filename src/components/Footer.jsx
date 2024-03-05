@@ -15,7 +15,7 @@ const Footer = () => {
                     <a href="http://www.linkedin.com/in/pratham-patel-08865821b" target="_blank" rel="noopener noreferrer"><BsLinkedin className="icon linkedin-icon" size="3rem" /></a>
                 </div>
                 <div className="copyright-div pt-5">
-                    <small>©Copyright {new Date().getFullYear()}-Pratham Patel. All rights reserved.</small>
+                    <small>©Copyright 2024-Pratham Patel. All rights reserved.</small>
                 </div>
             </section>
         </>

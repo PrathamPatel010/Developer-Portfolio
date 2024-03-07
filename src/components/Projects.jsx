@@ -11,7 +11,7 @@ const Projects = () => {
                     <Row>
                         <div className="project-grid mt-4">
                             {
-                                projects.map((project) => (
+                                projects.reverse().map((project) => (
                                     <Col key={project.projectIndex} xs={12} md={6}>
                                         <Card className="card-project">
                                             <Card.Img variant="top" src={project.img} />

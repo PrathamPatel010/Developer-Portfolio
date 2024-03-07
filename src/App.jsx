@@ -9,6 +9,7 @@ import NavbarComponent from './components/Nav';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import ProjectPage from './ProjectPage';
+import {Contact} from "./components/Contact.jsx";
 
 const App = () => {
   const [showLoader, setShowLoader] = useState(true);
@@ -38,6 +39,7 @@ const Home = () => {
       <Skills />
       <Projects />
       <Blogs />
+      <Contact/>
       <Footer />
     </>
   )

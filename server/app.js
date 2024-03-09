@@ -13,6 +13,10 @@ app.listen(PORT,()=>{
     console.log(`Server is listening on port ${PORT}`);
 });
 
+app.get('/',(req,res)=>{
+    res.send(`<h1>Portfolio Server is up & running </h1>`);
+});
+
 app.post('/api/v1/sendmail',async(req,res)=>{
     console.log('Initiating Mail Service');
     try{
@@ -35,3 +39,4 @@ app.post('/api/v1/sendmail',async(req,res)=>{
         console.log(err.message);
     }
 })
+

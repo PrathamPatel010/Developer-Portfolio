@@ -28,7 +28,7 @@ export const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setButtonText("Sending...");
-        const response = await axios.post(`${backend}}/api/v1/sendmail`,formDetails);
+        const response = await axios.post(`${backend}/api/v1/sendmail`,formDetails);
         if (response.data.status!==200){
             setButtonText('Some Error occurred!! Try again later');
             return;

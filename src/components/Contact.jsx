@@ -6,6 +6,7 @@ import TrackVisibility from 'react-on-screen';
 import axios from "axios";
 
 export const Contact = () => {
+    const backend = import.meta.env.VITE_BACKEND;
     const formInitialDetails = {
         firstName: '',
         lastName: '',
@@ -27,7 +28,7 @@ export const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setButtonText("Sending...");
-        const response = await axios.post('http://localhost:3000/api/v1/sendmail',formDetails);
+        const response = await axios.post(`${backend}}/api/v1/sendmail`,formDetails);
         if (response.data.status!==200){
             setButtonText('Some Error occurred!! Try again later');
             return;
